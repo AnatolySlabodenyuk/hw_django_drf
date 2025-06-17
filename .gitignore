@@ -1,4 +1,7 @@
 .venv
 .idea
 __pycache__/
-./measurement/migrations
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
